@@ -72,5 +72,5 @@ type and processTime. est is appended at the end of the record for an elderly.
 Finally, it outputs
  the average customers’ waiting time and
  tellers’ total idle time and
- it answers the question: Has the goal “at least 95% of customers waited less than 10
-minutes” been achieved?
+  the goal “at least 95% of customers waited less than 10
+minutes” has been achieved.
