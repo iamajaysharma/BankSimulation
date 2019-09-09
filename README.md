@@ -29,16 +29,13 @@ should be not counted for the service time.
 A task is a service work the customer brings to the bank and requests the teller to complete for
 them. A customer may bring a sequence of tasks each time they enter the bank. A task will be one
 of following types:
-(1) opening an account
-(2) transferring a fund
-(3) general inquiry
+opening an account,  transferring a fund, general inquiry
 Each task can be described by the following data attributes
 type char type of the task. (‘o’, ‘t’ and i’ can be used to represent the three types)
 
 processTime int the time (in minutes) normally required to process the task.
-For an underAge customer, only (1) and (3) types can be processed. If an underAge brings in a
-transferring a fund task, the teller will not process it.
-TELLER
+ If an underAge brings in a transferring a fund task, the teller will not process it.
+
 A teller is a person who works at the counter to serve customers (ie. to complete tasks brought in
 by customers). Tellers are divided into two levels: junior and senior.
 When two or more tellers are available and there is only one customer waiting, then the teller who
@@ -61,22 +58,19 @@ following data attributes.
 name String name of the teller.
 level char level of the teller (‘j” for junior and ‘s’ for senior)
 idleTime int accumulated time for a teller to wait for a customer to
-
 arrive.
 A teller’s name is always just one word and is unique.
 
 Input
 The text file (input.txt) contains all required data to run the simulation. The file specifies
-(1) name of the branch
-(2) a list of tellers (name and level) who work at the counter. At the start of the
-simulation, all tellers are available at the counter to serve customers.
-(3) a sequence of customers (id, underAge/elderly/normal, enterTime and an array of
+name of the branch, a list of tellers (name and level) who work at the counter. At the start of the
+simulation, all tellers are available at the counter to serve customers,a sequence of customers (id, underAge/elderly/normal, enterTime and an array of
 tasks). Note that enterTime is the time interval (in minutes) between the start of the
 simulation and the time the customer arrives at the bank. Each task is described by its
 type and processTime. est is appended at the end of the record for an elderly.
 
 Finally, it outputs
-(1) the average customers’ waiting time and
-(2) tellers’ total idle time and
-(3) it answers the question: Has the goal “at least 95% of customers waited less than 10
+ the average customers’ waiting time and
+ tellers’ total idle time and
+ it answers the question: Has the goal “at least 95% of customers waited less than 10
 minutes” been achieved?
