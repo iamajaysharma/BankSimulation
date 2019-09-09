@@ -1,0 +1,79 @@
+Customer Service Simulation
+Branch: Flinders Street Branch
+Starting Time: 2015-09-02 10:40
+Tellers: amy (junior), leanne (junior) and chris (senior)
+10:40
+amy idle
+leanne idle
+chris idle
+Queue (number of waiting 0)
+--------------------------------------------------------------------------
+10:41
+amy idle
+leanne idle
+chris customer 1/task o/
+Queue (number of waiting 0)
+--------------------------------------------------------------------------
+10:42
+amy customer 2/task i/ (underAge transferring fund skipped)
+leanne idle
+chris customer 1/task o/
+Queue (number of waiting 0)
+--------------------------------------------------------------------------
+10:43
+amy customer 2/task i/
+Leanne customer 3/task o/
+chris customer 1/task o/
+Queue (number of waiting 0)
+--------------------------------------------------------------------------
+10:44
+amy customer 2/task i/
+Leanne customer 3/task o/
+chris customer 1/task o/
+Queue (number of waiting 1)/customer 4/
+--------------------------------------------------------------------------
+10:45
+amy customer 2/task i/
+Leanne customer 3/task o/
+chris customer 1/task o/
+Queue (number of waiting 2) customer 4/customer 5/
+--------------------------------------------------------------------------
+10:46
+amy customer 2/task i/
+Leanne customer 3/task o/
+chris customer 1/task o/
+Queue (number of waiting 2) customer 4/customer 5/
+
+// Some lines removed for brevity
+
+8
+
+3 Coding Style
+Your code should be neat, correctly indented and documented.
+For each class, you are required to indicate the purpose and hierarchy of the class. You need to
+have comments for each method to indicate the purpose, parameters and return data. Appropriate
+comments in the program body are required as well.
+
+4 References
+ Lecture Notes.
+ Savitch, W., Absolute JAVA, 5th ed, Addison-Wesley.
+ JAVA (Standard Edition 7) API Specification, http://docs.oracle.com/javase/7/docs/api/
+--------------------------------------------------------------------------
+11:31
+amy customer 24/task o/
+leanne idle
+chris idle
+Queue (number of waiting 0)
+--------------------------------------------------------------------------
+11:32
+amy idle
+leanne idle
+chris idle
+Queue (number of waiting 0)
+--------------------------------------------------------------------------
+Ending Time: 2015-09-02 11:32
+Customers’ average waiting time: 3.34 minutes
+Tellers’ total idle time 49 minutes
+4.2% of customers waited more than 10 minutes in the queue. Consequently the
+goal “at least 95% of customers waited less than 10 minutes” has been
+achieved.
