@@ -1,0 +1,29 @@
+Flinders Street 
+amy j
+leanne j
+chris s
+1 normal 1 [(o, 21) (o, 17) (t, 3)]
+2 underAge 2 [(t, 4) (i, 6)]
+3 elderly 3 [(o, 12) (t, 5) (i, 7)] 3
+4 normal 4 [(t, 4) (t, 3) (t, 8) (t, 2)]
+5 underAge 5 [(o, 20) (i, 12)]
+6 underAge 13 [(o, 20) (t, 5) (t, 3)]
+7 elderly 25 [(t, 4) (t, 3) (i, 12)] 0
+8 normal 27 [(t, 2) (t, 2)]
+9 underAge 28 [(i, 2)]
+10 normal 29 [(i, 3)]
+11 normal 30 [(i, 10) (t, 5)]
+12 elderly 33 [(i, 7)] 12
+13 elderly 39 [(o, 14) (i, 3)] 7
+14 underAge 42 [(i, 6) (t, 6) (o, 12)]
+15 underAge 52 [(i, 12) (i, 2)]
+16 normal 75 [(t, 10) (t, 5) (t, 4)]
+17 underAge 81 [(t, 6)]
+ 
+
+  
+
+
+
+
+
