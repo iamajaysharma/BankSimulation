@@ -44,20 +44,6 @@ Leanne customer 3/task o/
 chris customer 1/task o/
 Queue (number of waiting 2) customer 4/customer 5/
 
-// Some lines removed for brevity
-
-8
-
-3 Coding Style
-Your code should be neat, correctly indented and documented.
-For each class, you are required to indicate the purpose and hierarchy of the class. You need to
-have comments for each method to indicate the purpose, parameters and return data. Appropriate
-comments in the program body are required as well.
-
-4 References
- Lecture Notes.
- Savitch, W., Absolute JAVA, 5th ed, Addison-Wesley.
- JAVA (Standard Edition 7) API Specification, http://docs.oracle.com/javase/7/docs/api/
 --------------------------------------------------------------------------
 11:31
 amy customer 24/task o/
